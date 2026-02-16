@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Shop Menu</title>
+    <link rel="stylesheet" href="menu-style.css">
+</head>
+<body>
+
+    <h1>Menu</h1>
+
+
+
+    <div class="mainMsgBox hide">
+        <div class="msg">
+    <div class="msgText"><!-- this is text --></div>
+    <div class="msgBtn">
+        <button class="mainMsgBtn"><!-- this is button --></button>
+    </div>
+</div>
+    </div>
+
+
+    <main class="m2">
+        <div id="main">
+          <div id="menu">
+
+            <button type="submit" class="coffeeType" id="black-coffee">Black Coffee</button>
+
+            <button type="submit" class="coffeeType" id="cold-coffee">Cold Coffee</button>
+
+            <button type="submit" class="coffeeType" id="green-coffee">Green Coffee</button>
+
+            <button type="submit" class="coffeeType" id="hot-coffee">Hot Coffee</button>
+
+        </div>  
+        <div id="btn">
+            <button type="submit" id="submit-btn">ORDER</button>
+        </div>
+        </div>
+
+        <div id="orders">
+            <div class="coffee">Black Coffee <pre> = </pre> <span id="black"> 0 </span></div>
+
+            <div class="coffee">Cold Coffee <pre> = </pre> <span id="cold"> 0 </span></div>
+
+            <div class="coffee">Green Coffee <pre> = </pre> <span id="green"> 0 </span></div>
+
+            <div class="coffee">Hot Coffee <pre> = </pre> <span id="hot"> 0 </span></div>
+
+            <div class="coffee">Total Order <pre> = </pre> <span id="order"> 0 </span></div>
+        </div>
+    </main>
+    
+
+    <script src="menu.js"></script>
+</body>
+</html>
